@@ -21,7 +21,7 @@ Check any passive data
 ## Identification of Vulnerabilities and Services
 Gain perspective of the network from hackers point of view
   - Metasploit
-  - hashcat
+  - John the Ripper/hashcat
   
 ## Vulnerability Exploitation
 Exploitation is defined as any action performed that allows unauthorized access to the system or sensitive data
