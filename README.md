@@ -134,4 +134,34 @@ The shellshock vulnerability allowed a meterpreter shell to open, targeting the 
 | Description | Allowed access to the domian dossier server of OSINT Framework tool via SSH |
 | Remediation | Multifactor authentifiaction for SSH access. mLimiting login attempts to 5. Require password length greater than 8 and use of special characters |
 
-|
+| Vulnerability 2 | Findings |
+| ------------- | ------------- |
+| Title | Apache Struts |
+| Type | Linux |
+| Risk Rating | High |
+| Description | Apache struts vulnerability that granted access to server through remote code execution |
+| Remediation | Strong validation to protect against injection attacks. Patch and update Struts framework |
+
+| Vulnerability 3 | Findings |
+| ------------- | ------------- |
+| Title | Apache-Shellshock |
+| Type | Linux |
+| Risk Rating | High |
+| Description | Shellshock exploit on MSFconsole. Targeted URI /cgi-bin/shockme.cgi web page and opened a meterpreter shell |
+| Remediation | Eliminate ability to run shell commands in HTTP headers. Update and patch Apache HTTP server |
+
+| Vulnerability 4 | Findings |
+| ------------- | ------------- |
+| Title | Password Cracking via John the Ripper |
+| Type | Linux |
+| Risk Rating | High |
+| Description | Accquired user's password hash and ran it through john command. Revealed username and password which was used to elevate privileges to root |
+| Remediation | Encrypt password hashes. Salt and pepper hashes |
+
+| Vulnerability 5 | Findings |
+| ------------- | -------------| 
+| Title | Apache Tomcat Bypass allowing Remote COntrol Execution |
+| Type | Linux |
+| Risk Rating | High |
+| Description | Nmap scan revealed vulnerabilites in the server.m Implemented remote code execution to exploit server |
+| Remediation | Stronger and encrypted passwords for Tomcat manager user accounts. Ensure lates security paches are applied to Apache Tomcat server |
