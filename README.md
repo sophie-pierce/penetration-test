@@ -4,7 +4,7 @@
 Conducted inside a pentesting lab enviornemnt located in Windows Azure Lab Services.
 
 Hyper-V VMs used:
-- Kali
+- Kali Linux
 - Metasploitable2
 - Windows 10
 - WINDC01
